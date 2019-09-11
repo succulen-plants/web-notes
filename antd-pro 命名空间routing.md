@@ -19,6 +19,7 @@ const createOpts = {
 const app = core.create(opts, createOpts);
 
 dva-core:
+
 var reducers = (0, _objectSpread2.default)({}, initialReducer);
  function createReducer() {
       ----
