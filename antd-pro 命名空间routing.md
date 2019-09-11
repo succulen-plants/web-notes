@@ -12,6 +12,7 @@ import {
 } from 'react-router-redux';
 
 import * as core from 'dva-core';
+
 const createOpts = {
 ​    initialReducer: {
 ​      routing,
@@ -21,9 +22,11 @@ const app = core.create(opts, createOpts);
 dva-core:
 
 var reducers = (0, _objectSpread2.default)({}, initialReducer);
+
  function createReducer() {
       ----
 ​    }
+
  var store = app._store = (0, _createStore.default)({
 ​      // eslint-disable-line
 ​      reducers: createReducer(),
